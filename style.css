@@ -140,8 +140,30 @@ li {
     padding: 15px;
 }
 
+.trending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.trending .img-placeholder{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;    
+}
 .trending, .announcements {
     font-size: 12px;
+}
+
+.trending {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.trending .img-placeholder {
+    grid-column: 1 / 2;
+    grid-template-rows: 1/3;
 }
 
 
