@@ -140,6 +140,11 @@ li {
     padding: 15px;
 }
 
+.trending, .announcements {
+    font-size: 12px;
+}
+
+
 .img-placeholder {
     background-color: #1992D4;
     border-radius: 30px;
