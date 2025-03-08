@@ -37,6 +37,11 @@ header {
     align-items: center;    
 }
 
+.top-header .left {
+    display: flex;
+    gap: 25px;
+}
+
 .top-header .right {
     display: flex;
     gap: 25px;
@@ -60,12 +65,13 @@ header {
     background-color:  #E2E8F0;
     width: 450px;
     height: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .bottom-header-left {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 6fr;
+    align-items: center;
 }
 
 
@@ -77,6 +83,7 @@ header {
     display: flex;
     gap: 25px;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .bottom-header-right>p {
