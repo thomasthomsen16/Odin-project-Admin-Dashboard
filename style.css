@@ -170,15 +170,28 @@ header {
     overflow: hidden; /* Prevents bar from overflowing */
 }
 
+.project h3 {
+    margin-top: 15px;
+}
+
 .bar {
     width: 8px; /* Thickness of the bar */
     height: 100%; /* Full height of the project */
-    background-color: orange;
+    background-color: rgb(255, 186, 59);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     position: absolute; /* Positions it relative to .project */
     left: 0; /* Sticks to the left edge */
     top: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    gap: 15px;
+    margin-top: 50px;
+    margin-right: 15px;
 }
 
 .main-content-right {
