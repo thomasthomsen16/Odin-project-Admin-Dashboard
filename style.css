@@ -13,7 +13,7 @@ h2 {
 
 p {
     margin: 0px;
-} 
+}
 
 .container {
     display: grid;
@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     grid-column: 1 / 3;
-    align-items: center;    
+    align-items: center;
 }
 
 .top-header .left {
@@ -47,10 +47,10 @@ header {
     gap: 25px;
 }
 
-.top-header .left, .top-header .right {
+.top-header .left,
+.top-header .right {
     display: flex;
     align-items: center;
-
 }
 
 .top-header .right .img-placeholder {
@@ -58,11 +58,10 @@ header {
     width: 50px;
     border-radius: 25px;
     background-color: rgb(255, 208, 0);
-
 }
 
 .searchbar {
-    background-color:  #E2E8F0;
+    background-color: #E2E8F0;
     width: 450px;
     height: 25px;
     border-radius: 15px;
@@ -75,7 +74,7 @@ header {
 }
 
 
-.bottom-header-right >img{
+.bottom-header-right>img {
     grid-column: 1/2;
 }
 
@@ -102,7 +101,7 @@ header {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: #1992D4;
-    color: white;    
+    color: white;
 }
 
 .sidebar .heading {
@@ -147,7 +146,7 @@ header {
     display: grid;
     grid-template-columns: 3fr 1fr;
     background-color: #E2E8F0;
-    padding: 0px 25px 25px 25px; 
+    padding: 0px 25px 25px 25px;
 }
 
 .main-content p {
@@ -167,13 +166,26 @@ header {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
+    position: relative; /* Ensures proper alignment */
+    overflow: hidden; /* Prevents bar from overflowing */
+}
+
+.bar {
+    width: 8px; /* Thickness of the bar */
+    height: 100%; /* Full height of the project */
+    background-color: orange;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute; /* Positions it relative to .project */
+    left: 0; /* Sticks to the left edge */
+    top: 0;
 }
 
 .main-content-right {
     grid-column: 2 / 3;
 }
 
-.right-top{
+.right-top {
     background-color: white;
     border-radius: 10px;
 }
@@ -183,7 +195,7 @@ header {
     padding: 15px;
 }
 
-.right-bottom{
+.right-bottom {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
@@ -197,12 +209,14 @@ header {
     margin-top: 15px;
 }
 
-.trending .img-placeholder{
+.trending .img-placeholder {
     width: 50px;
     height: 50px;
-    border-radius: 25px;    
+    border-radius: 25px;
 }
-.trending, .announcements {
+
+.trending,
+.announcements {
     font-size: 12px;
 }
 
@@ -225,6 +239,6 @@ header {
     align-items: center;
 }
 
-.bottom-header-left > .img-placeholder {
+.bottom-header-left>.img-placeholder {
     background-color: rgb(255, 208, 0);
 }
