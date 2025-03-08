@@ -7,6 +7,10 @@ h3 {
     padding-bottom: 15px;
 }
 
+h2 {
+    margin: 15px 0px 15px 0px;
+}
+
 p {
     margin: 0px;
 } 
@@ -107,13 +111,15 @@ header {
     grid-template-rows: repeat(6, 1fr);
     padding: 25px;
     align-items: center;
+    gap: 25px 0px;
 }
 
 .sidebar .bottom-nav {
-    margin-top: 80px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 50px 1fr;
     grid-template-rows: repeat(3, 1fr);
+    gap: 25px 0px;
     padding: 25px;
     align-items: center;
 }
@@ -165,16 +171,17 @@ header {
     border-radius: 10px;
 }
 
+.announcements {
+    border-radius: 10px;
+    padding: 15px;
+}
+
 .right-bottom{
     background-color: white;
     border-radius: 10px;
     padding: 15px;
-    margin-top: 25px;
-}
-
-.announcements {
-    border-radius: 10px;
-    padding: 15px;
+    display: grid;
+    grid-template-rows: repeat(5);
 }
 
 .trending {
