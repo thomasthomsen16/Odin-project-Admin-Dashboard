@@ -28,6 +28,8 @@ header {
     grid-template-columns: 1fr 1fr;
     background-color: white;
     padding: 0px 25px 0px 25px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Set z-index to ensure shadow appears below */
 }
 
 .top-header {
@@ -168,6 +170,7 @@ header {
     padding: 15px;
     position: relative; /* Ensures proper alignment */
     overflow: hidden; /* Prevents bar from overflowing */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .project h3 {
@@ -206,6 +209,7 @@ header {
     background-color: white;
     border-radius: 10px;
     padding: 15px 0px 15px 0px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .line {
@@ -224,6 +228,7 @@ header {
     background-color: white;
     border-radius: 10px;
     padding: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .trending {
