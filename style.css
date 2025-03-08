@@ -75,7 +75,7 @@ header {
 
 .bottom-header-right {
     display: flex;
-    gap: 50px;
+    gap: 25px;
     justify-content: flex-end;
 }
 
@@ -87,7 +87,7 @@ header {
     background-color: #1992D4;
     border-radius: 35px;
     height: 35px;
-    width: 80px;
+    width: 100px;
     color: white;
 }
 
